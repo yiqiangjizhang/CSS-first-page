@@ -1,0 +1,29 @@
+/* Text Styles */
+
+h1 {
+  --color: green;
+  color: var(--color);
+  font-size: 60px;
+  /* Serif: With ending (Default)*/
+  font-family: serif;
+  /* Sans-Serif: Without ending */
+  font-family: sans-serif;
+  /* Monospace: With constant width */
+  font-family: monospace;
+  /* Using a Family: Or get fallback if does not exist */
+  font-family: Arial, Helvetica, sans-serif;
+  /* Linking */
+  font-family: "Roboto", sans-serif;
+
+  /*  */
+  line-height: 100px;
+
+  font-weight: normal;
+
+  margin: 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}

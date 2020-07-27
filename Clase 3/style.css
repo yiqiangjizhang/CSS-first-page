@@ -1,0 +1,19 @@
+h1 {
+  --color: green;
+  color: var(--color);
+}
+
+span {
+  color: var(--color);
+}
+
+body {
+  --color: red;
+  background: var(--color);
+}
+
+p {
+  color: var(--color);
+}
+
+/* DOM: Document Object Model */

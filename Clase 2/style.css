@@ -1,0 +1,40 @@
+/* Basic concepts for understanding CSS
+
+Selectors
+Specicivity
+Cascade
+heritage
+
+box model
+position
+flexbox
+
+*/
+
+/* Selectors
+
+  Tag selector: They use the HTML tag of the element
+
+  descendant selector: Selectors separated with a space, the first one is the faher and the second is the son (or a descendant in whatever level)
+
+*/
+
+h1 {
+  color: red;
+  /* color: hsl(0,100%,50%); */
+  /* color: rgb(255,0,0); */
+  /* color: #ff0000; */
+}
+
+header {
+  transition: left 2s;
+}
+
+header span {
+  transform: rotate(10deg);
+  margin: calc(10px * 2);
+  /* margin: 10em; */
+  /* margin: 10ex; */
+  order: 10;
+  content: "Hola Mundo";
+}
