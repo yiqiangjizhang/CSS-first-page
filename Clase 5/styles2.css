@@ -1,0 +1,36 @@
+/* SELECTORES COMPUESTOS (more than 1 word)*/
+
+/* Descendant */
+
+/* ancestro descendiente {
+
+} 
+*/
+
+ul span {
+  background: cyan;
+}
+
+/* Direct son */
+
+li > span {
+  background: coral;
+}
+
+/* Adyacent Selector (For the element after) [Selector hermano siguiente] */
+h1 + p {
+  background: lime;
+}
+
+/* All Adyacent brothers [Selector hermanoS siguienteS */
+h1 ~ p {
+  background: pink;
+}
+
+/* Selector Combination */
+/* h1.first {
+  color: blue;
+} */
+.title.first {
+  color: blue;
+}

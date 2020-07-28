@@ -1,0 +1,46 @@
+/* SELECTORES DE ATRIBUTOS */
+
+/* They use crochetes [] to indicate the atribute */
+
+[href] {
+  color: red;
+}
+
+[href="https://www.youtube.com/hitechxy"]
+{
+  color: blue;
+  font-size: 2em;
+}
+/* Which is better */
+[title] {
+  color: green;
+  font-size: 1em;
+}
+
+/* If I only wnat the first link */
+/* a[title] {
+  color: greenyellow;
+} */
+
+/* COMODIN: ^ (it means: 'begin with ... ')*/
+[title^="Canal"] {
+  color: fuchsia;
+}
+
+/* COMODIN: $ (it means: 'ends with ...') */
+[href$="pdf"] {
+  display: block;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/833px-PDF_file_icon.svg.png)
+    left / contain no-repeat;
+  padding-left: 1.5em;
+}
+
+/* COMODIN: *  (it means: contains)*/
+[href*="sea"] {
+  color: green;
+}
+
+/* If ther is a 'i 'after, it means that it is insensitive(does not matter uppercase o lowercase)*/
+[href*="sea" i] {
+  color: green;
+}

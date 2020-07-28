@@ -1,0 +1,34 @@
+/* SELECTORES SIMPLES */
+
+/* Selectores de tipo (etiqueta HTML) */
+/* Better no use them except base styles */
+
+li {
+  background: yellow; /* (theme = design */
+}
+
+/* Selectores de ID */
+/* Better not use them*/
+
+/* #item1 {
+  background: blue;
+} */
+
+/* Selectores de clase (Most efficient) */
+.menu-item {
+  background: lime /*!important*/;
+}
+
+.red {
+  background: blue;
+}
+/* ESPECIFIDAD */
+/* Es un algoritmo de CSS por el cual se resuelven los conflictos de estilos */
+/* 
+
+    type    1
+    class   10
+    id      100
+    inline  1000
+    !important (GANA A TODOS) SALTA TODO EL ALGORITMO Y SIEMPRE GANA (No buena práctica)
+*/
