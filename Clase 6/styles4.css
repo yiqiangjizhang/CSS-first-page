@@ -1,0 +1,43 @@
+/* Forms pseudo-classes */
+
+input:focus {
+  background: grey;
+}
+
+/* :enabled :disabled */
+
+input:disabled {
+  background: red;
+}
+
+/* :checked */
+.select:checked + label {
+  font-size: 2em;
+  background: yellow;
+}
+
+/* :required :optional */
+input:optional {
+  border: 1px solid green;
+}
+
+input:required {
+  border: 1px solid red;
+}
+
+/* :valid :invalid */
+input:valid {
+  background: seashell;
+}
+
+input:invalid {
+  background: slategray;
+}
+
+/* :in-range :out-of-range */
+input:in-range {
+  background-attachment: yellow;
+}
+input:out-of-range {
+  background: red;
+}

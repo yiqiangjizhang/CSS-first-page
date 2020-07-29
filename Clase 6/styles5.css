@@ -1,0 +1,43 @@
+/* Pseudoclass: Child */
+
+p:first-child {
+  background: yellow;
+}
+
+p:last-child {
+  background: pink;
+}
+
+p:nth-child(2) {
+  background: blue;
+  color: #fff;
+}
+
+/* We can write inside nth-child
+
+even
+odd
+
+n begins with 0
+3n
+4n + 1
+n+5
+
+etc
+
+*/
+
+p:nth-last-child() {
+  background: blueviolet;
+}
+
+p:only-child {
+  background: black;
+  color: white;
+}
+
+/* WARNING: child only looks for childs, it does not care about the elements */
+
+p:nth-child(2) {
+  background: brown;
+}

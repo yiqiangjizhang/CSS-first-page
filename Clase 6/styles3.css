@@ -4,6 +4,18 @@
   background: skyblue;
 }
 
-/* Empty */
-:empty {
+p {
+  background: yellow;
+  padding: 0.5em;
 }
+/* Empty */
+p:empty {
+  background: red;
+  /* To get rid of the styling on an empty thing */
+  /* display: none; */
+}
+
+/* :not(selector) - Changes all the thigns that not are the selector chosen */
+/* p:not(:empty) {
+  background: lime;
+} */
