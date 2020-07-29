@@ -1,0 +1,27 @@
+/* TO explain target */
+
+nav {
+  background: #222;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  top: 0;
+}
+
+nav a {
+  color: #fff;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
+}
+
+#parraf {
+  margin-top: 50em;
+  margin-bottom: 50em;
+}
+
+#parraf:target {
+  padding-top: 100px;
+  background: rgb(0, 255, 0);
+}

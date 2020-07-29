@@ -1,0 +1,34 @@
+/* Pseudeo Classes */
+
+/* They are dynamic, that responds to the context, to the user interaction or some elements' properties */
+
+/* Pseudo classes are indicated with (:) */
+
+a {
+  display: block;
+  background: red;
+  color: #fff;
+  line-height: 2.5;
+  padding: 0 1em;
+  text-decoration: none;
+}
+
+/* When mouse is above element */
+a:hover {
+  background: darkred;
+}
+
+/* This applies to all Page! (pseudo classes are not attached to a selector) */
+/* a:hover {
+    background: darkred;
+  } */
+
+/* When mouse is pressed */
+a:active {
+  transform: scale(0.9);
+}
+
+/* Not in use noew, it tells user when page is visited */
+/* a:visited {
+  background: black;
+} */

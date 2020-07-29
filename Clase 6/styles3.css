@@ -1,0 +1,9 @@
+/* root (root of everything) - References to HTML*/
+
+:root {
+  background: skyblue;
+}
+
+/* Empty */
+:empty {
+}
