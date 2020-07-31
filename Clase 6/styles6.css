@@ -1,0 +1,24 @@
+/* Pseudo Classes Type */
+
+/* 
+
+Equivalents
+
+:first-child        :first-of-type
+:last-child         :last-of-type
+:nth-child()        :nth-of-type()
+:nth-last-child( )  :nth-last-of-type()
+
+*/
+
+/* drafts.csswg.org/selectors-4/#overview */
+
+p:nth-of-type(3) {
+  background: yellow;
+}
+
+/* Now it works with classes as well */
+
+.parraf:nth-of-type(3) {
+  background: red;
+}
