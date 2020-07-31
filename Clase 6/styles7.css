@@ -1,0 +1,15 @@
+/* Grouped Selectors */
+.title,
+.p {
+  text-decoration: underline;
+}
+
+.title {
+  color: red;
+}
+
+.parraf {
+  color: blue;
+}
+
+/* Scoped */
