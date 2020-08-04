@@ -1,3 +1,12 @@
+/* 
+        INTERNAL
+          Content: Text etc.
+          Padding: Space between content and box
+          Border: Trace that can be displayed around the box
+        EXTERNAL
+          margin: Space between boxes
+ */
+
 .element {
   background-color: yellow;
   padding: 20px 100px 60px 10px; /* Following clockwise */
