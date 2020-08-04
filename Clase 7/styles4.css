@@ -1,0 +1,17 @@
+.box {
+  width: 300px;
+  height: 200px;
+  border: 5px solid red;
+  border-radius: 10px 50px; /* This is a Shorthand */
+  border-top-left-radius: 100px 50px; /* Elipse rx ad ry */
+
+  /* border-radius: 200px / 50px;  Everything on the left is rx and everything on the right is ry*/
+  /* Which is the same as:
+  border-bottom-left-radius: 200px 50 px;
+  border-top-left-radius: 200px 50 px;
+  border-top-right-radius: 100px 50 px;
+  border-bottom-right-radius: 200px 50 px;
+  border-bottom-left-radius: 200px 50 px;
+  
+  */
+}
