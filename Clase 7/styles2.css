@@ -1,0 +1,22 @@
+.element {
+  background-color: yellow;
+  padding: 20px 100px 60px 10px; /* Following clockwise */
+  /* padding: 20px 100px      ->    This means 20 for horizontal and 100 for vertical*/
+  /* display: inline-block; */
+  margin: 60px;
+}
+
+.element:nth-child(2) {
+  margin-top: 100px;
+}
+
+/* Vertical margins do not sum!!!! */
+/* COLAPSED MARGINS -> THE BIGGEST IS THE ONE THAT DICTATES THE MARGIN */
+article {
+  background: red;
+  margin: 0;
+}
+
+body {
+  background: yellow;
+}
