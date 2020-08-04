@@ -1,0 +1,39 @@
+*,
+*:before,
+*after {
+  box-sizing: border-box;
+}
+
+.box {
+  width: 400px;
+  height: 400px;
+  border: 20px dashed red;
+  padding: 40px;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/230px-HTML5_logo_and_wordmark.svg.png),
+    url(https://desarrolloweb.com/storage/tag_images/actual/NTyqDTKED8kFAhWxUzUwFGQJacxNoQBfFekELDya.png),
+    yellow;
+  background-repeat: no-repeat, repeat;
+  background-position: bottom right, top left;
+  background-size: 50%, 30%;
+  /* background-size: contain; */
+  /* background-size: cover; */
+  /* background-clip: padding-box; */
+  background-clip: border-box;
+  /* background-clip: border-box; */
+
+  /* Background clip tells you where to start representating */
+  /* Backround origin tells you where it is going to be drawn the origin*/
+  /* bacroungd-origin: content-box; */
+}
+
+/* To hide an item */
+/* display: none; */
+
+.gear {
+  width: 200px;
+  height: 200px;
+  background: gray;
+  border-radius: 50%;
+  border: 20px dotted grey;
+  background-clip: padding-box;
+}
