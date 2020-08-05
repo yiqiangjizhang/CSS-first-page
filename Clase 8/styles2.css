@@ -1,0 +1,43 @@
+/* Float and overflow */
+*,
+*:before,
+*after {
+  box-sizing: border-box;
+}
+
+/* float breaks the flux and it does not continue to be part of its father*/
+.img {
+  float: left;
+  margin: 0 0 10px 10px;
+}
+
+article {
+  width: 80%;
+  margin: 1em auto;
+  border: 1px solid red;
+  overflow: hidden;
+  /* See what overflow hidden does to th container */
+  /* or you can use: */
+  /* display; hidden; */
+}
+
+article::after {
+  content: "";
+  display: block;
+  width: 400px;
+  height: 400px;
+  background: yellow;
+  /* margin-left: -100px; */
+  /* position: absolute; */
+}
+
+/* overflow: hidden; */
+/* overflow: scroll; */
+/* overflow: auto; */
+
+pre {
+  width: 350px;
+  border: 2px solid green;
+  overflow: auto;
+  /* overflow: scroll; will always appear */
+}

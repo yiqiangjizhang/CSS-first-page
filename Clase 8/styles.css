@@ -1,5 +1,55 @@
+/* Pseudoelements After and Before */
+/* Pseudo elements do not exist in HTML */
 *,
 *:before,
 *after {
   box-sizing: border-box;
+}
+
+.title::before {
+  content: "Hello";
+}
+
+.title::after {
+  content: " World";
+}
+
+/* You can rpint images, classes in pseudoelements */
+.title::before {
+  content: url(https://i.blogs.es/f55895/samsung-galaxy-note-10-plus-01/450_1000.jpg);
+}
+
+.title::before {
+  content: attr(id);
+}
+
+/* What if i put this */
+.title::before {
+  content: "";
+  width: 200px;
+  height: 200px;
+  background: red;
+}
+/* It does not display the box because it is an INLINE ELEMENT!! */
+/* We must add: display: block; */
+
+[href$="pdf"]::after {
+  content: url(https://lh3.googleusercontent.com/proxy/JFtCyl2fkQHteOpQ0eofjscs2Vc9DGWMsM77QQ5DSPTnOk00nTBrpPL8l3H70CXybKSW7OTMHg80OIifCkF_X_GUqDyGsUt1w7Gmj0pi22LKHRmJOkUgIU0twqHRo6TKfAgudb7mTDls_jSHF_gAB_wHAbHOSQmDYfDvuSDHDJb2-S8ljC4VvL-DcD9a);
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.download {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+[href$="txt"]::after {
+  content: url(https://icons.iconarchive.com/icons/carlosjj/microsoft-office-2013/256/Word-icon.png);
+}
+
+/* To get the same styles for all downloads */
+.download::after {
+  display: inline-block;
+  margin-left: 5px;
 }
