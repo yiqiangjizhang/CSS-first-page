@@ -1,0 +1,27 @@
+/* Flux and static postition */
+
+/* What is a positioned element? 
+
+postion: static (default) | relative | absolute | fixed | sticky;
+*/
+
+/* When an element is positioned, it breaks with the flux and it gains new properties*/
+/* 
+top
+right bottom
+left
+z-index: which mask is above
+*/
+
+h1 {
+  /* position: fixed; */
+  background: yellow;
+  display: inline-block;
+  color: yellow;
+}
+
+p {
+  background: pink;
+  margin-top: -50px;
+  color: pink;
+}

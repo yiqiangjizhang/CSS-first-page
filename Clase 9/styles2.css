@@ -1,0 +1,19 @@
+/* Position relative */
+/* 
+    1. The element preserves its space in the flux
+    2. Preserves its original dimensions
+    3. Its context is its initial position
+*/
+
+h1 {
+  background: yellow;
+  position: relative;
+  /* position: absolute; */
+  margin: 0;
+  top: 50px;
+  left: 20px;
+}
+
+div {
+  border: 3px dashed red;
+}
