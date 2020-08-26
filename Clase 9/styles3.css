@@ -1,0 +1,43 @@
+/* Position Absolute */
+/* 
+    1. The element DO NOT preserves its space in the flux
+    2. Its dimensions adapts to the content
+    3. Its context is its ancest positioned more nearby
+*/
+
+h1 {
+  background: yellow;
+  position: relative;
+  /* position: absolute; */
+  margin: 0;
+  top: 50px;
+  left: 20px;
+}
+
+div {
+  border: 3px dashed red;
+}
+
+.poster {
+  width: 250px;
+}
+
+.poster img {
+  width: 100%;
+}
+
+.caption {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  padding: 10px 0;
+  position: absolute;
+  color: #ffffff;
+  top: -100px;
+  text-align: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+.poster:hover .caption {
+  top: 0;
+}
